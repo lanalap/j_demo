@@ -17,8 +17,7 @@ public class CalculatorTests {
     void addingTwoNumbersShouldReturnSum() {
         int a = 1;
         int b = 2;
-        int expected = 6
-                ;
+        int expected = 3;
         int result = calculator.add(a, b);
         Assertions.assertEquals(expected, result);
         System.out.print("Adding result");
