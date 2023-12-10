@@ -27,7 +27,7 @@ public class CalculatorTests {
     void subtractTwoNumbersShouldReturnSubtract() {
         int a = 3;
         int b = 2;
-        int expected = 2;
+        int expected = 1;
         int result = calculator.subtract(a, b);
         Assertions.assertEquals(expected, result);
         System.out.print("Subtract result");
