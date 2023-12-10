@@ -35,7 +35,7 @@ public class CalculatorTests {
     @Test
     void multiplyTwoNumbersShouldReturnMultiply() {
         int a = 4;
-        int b = 6;
+        int b = 5;
         int expected = 20;
         int result = calculator.multiply(a, b);
         Assertions.assertEquals(expected, result);
